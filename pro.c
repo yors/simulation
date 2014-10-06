@@ -20,7 +20,7 @@
 
 //constantes a fixer soi-meme
 #define NMAX    30000
-#define MU      1
+#define MU      8
 #define NORDI   10
 #define epsilon 0.05  //pour le test de convergence
 #define K       1000   // pour le test de convergence
@@ -1019,7 +1019,7 @@ int main (int argc, char* argv[]){
   char *nom_fic_res1 = "resultats_simul1.data";
   char *nom_fic_res2 = "resultats_simul2.data";
   char *nom_fic_res3 = "resultats_simul3.data";
-  FILE *F1,*F2, *F3;
+  FILE *F1,*F2, *F3,*F4;
  double lambda=0;
 
   if(argc !=2)
