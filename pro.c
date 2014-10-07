@@ -1021,7 +1021,7 @@ int main (int argc, char* argv[]){
   char *nom_fic_res3 = "resultats_simul3.data";
   FILE *F1,*F2, *F3,*F4;
  double lambda=0;
-
+ char * r="tytyt";
   if(argc !=2)
   {
     printf("Nombre d'arguments incorrect\n");
