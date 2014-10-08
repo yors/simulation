@@ -115,8 +115,9 @@ void histo1(FILE* F, double* valeurs,double lambda,  int nb_classes,int Nmax){
 
 	int Max=-1;
 	double moyenne=0;
-	
+	int var=8;
 	unsigned int i;
+	char u="b";
 	int j=0;
 
  
