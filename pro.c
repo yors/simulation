@@ -119,6 +119,7 @@ void histo1(FILE* F, double* valeurs,double lambda,  int nb_classes,int Nmax){
 	unsigned int i;
 	char u="b";
 	int j=0;
+	int =55474;
 
  
       //On compte le nombre  d'éléments "a" dans valeurs[i] telle que i(minute)<a<=i+1(mimunte)
